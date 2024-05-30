@@ -77,10 +77,10 @@ a {
     text-align: center;
 }
 
-/* .image-container {
+.image-container {
     position: relative;
     overflow: hidden;
-} */
+}
 
 .image-description {
     font-size: 16px;
@@ -98,7 +98,7 @@ a {
     left: 0;
 }
 
-.porfolio-list-point:hover .image-description{
+.image-container:hover .image-description{
     transform: translateY(0);
 }
 
@@ -270,9 +270,8 @@ footer .logo {
 .porfolio-list-point{
     width: calc((100% - 48px) / 3);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    position: relative;
-    overflow: hidden;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* position: relative;
+    overflow: hidden; */
 }
 
 .list-of-description {
