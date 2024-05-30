@@ -130,7 +130,7 @@ footer .logo {
     min-height: 72px;
     display: flex;
     align-items: center;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.8), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.8);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
    }
 
 /* div class */
@@ -319,7 +319,7 @@ footer .logo {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.8), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.8);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .description-part {
@@ -362,11 +362,14 @@ footer .social-media-list {
     gap: 16px;
 }
 
-.social-media-list-point{
+.social-media-list-point {
     width: 40px;
     height: 40px;
-
 }
+
+.social-media-list-point:first-child {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
 
 .social-media-list-link {
     width: 100%;
