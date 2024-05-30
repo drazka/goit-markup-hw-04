@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+svg {
+    width: 64px;
+    height: 64px;
+}
 
 
 .dark-box {
@@ -123,6 +127,7 @@ footer .logo {
 .navigation-links {
     display: flex;
     align-items: center;
+    box-shadow: opx 2px 1px rgba(46, 47, 66, 0.8), 0px 1px 1px rgba(46, 47, 66, 0.16), rgba(46, 47, 66, 0.8);
 }
 
 /* lista class */
@@ -141,6 +146,24 @@ footer .logo {
     text-align: left;
     color: #2E2F42;
     padding: 24px 0;
+    position: relative;
+}
+
+.internal-link:first-child,
+.contact-link-list {
+    color:#404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.internal-link::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .internal-link:hover,
@@ -231,6 +254,7 @@ footer .logo {
     height: 56px;
     border: none;
     border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -298,4 +322,15 @@ footer .logo {
 .porfolio-under-image {
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #8e8fbb;
+    margin-bottom: 8px;
 }
