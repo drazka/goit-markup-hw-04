@@ -46,12 +46,12 @@ a {
 
 .footer-text {
     margin-right: 120px;
-    margin-left: 156px;
-    /* width: 1158px; */
-    /* margin: 0 auto; */
+    /* margin-left: 156px;
+    width: 1158px;
+    margin: 0 auto;
     padding: 0 15px;
-    /* display: flex;
-    align-items: baseline; */
+    display: flex;
+    align-items: baseline;  */
 }
 
 .footer-social-text {
@@ -63,7 +63,7 @@ a {
     margin-bottom: 16px;
 }
 
-.dark-box-footer-check {
+.dark-box-footer-all {
     display: flex;
     align-items: baseline;
 }
