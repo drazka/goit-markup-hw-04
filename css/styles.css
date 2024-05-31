@@ -50,8 +50,8 @@ a {
     /* width: 1158px; */
     /* margin: 0 auto; */
     padding: 0 15px;
-    display: flex;
-    align-items: baseline;
+    /* display: flex;
+    align-items: baseline; */
 }
 
 .footer-social-text {
@@ -62,6 +62,12 @@ a {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
+
+.dark-box-footer-check {
+    display: flex;
+    align-items: baseline;
+}
+
 
 .description-header {
     font-family: "Roboto", sans-serif;
