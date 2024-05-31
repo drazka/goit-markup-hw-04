@@ -44,6 +44,11 @@ a {
     align-items: baseline;
 }
 
+.dark-box-footer-check {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-text {
     margin-right: 120px;
     margin-left: 156px;
