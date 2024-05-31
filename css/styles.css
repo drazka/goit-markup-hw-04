@@ -44,19 +44,20 @@ a {
     align-items: baseline;
 }
 
-.dark-box-footer-check {
-    display: flex;
-    align-items: baseline;
-}
-
 .footer-text {
     margin-right: 120px;
     margin-left: 156px;
     /* width: 1158px; */
     /* margin: 0 auto; */
     padding: 0 15px;
+    display: flex;
+    align-items: baseline;
 }
 
+/* .footer-socials {
+    display: flex;
+    align-items: baseline;
+} */
 
 .footer-social-text {
     font-weight: 500;
